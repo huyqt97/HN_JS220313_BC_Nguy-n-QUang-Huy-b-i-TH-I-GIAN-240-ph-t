@@ -1,0 +1,37 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.container{
+    background-color: aliceblue;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    min-height: 100vh;
+}
+form{
+    border: 1px solid rgb(121, 117, 117);
+}
+td{
+    padding: 5px;
+}
+input{
+    outline: none;
+}
+#btn-form{
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+#list-students{
+    margin-top: 20px;
+}

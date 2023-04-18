@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      ĐÁNH GIÁ CHẤT LƯỢNG KỸ NĂNG NÂNG CAO MODULE 01 – JAVASCRIPT – HACKATHON 02
+      THỜI GIAN: 240 phút
+    </title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <bdy>
+    <div class="container">
+      <h1>Thông tin học viên</h1>
+      <form action="" id="form-students">
+        <table>
+          <tr>
+            <td>Họ và tên</td>
+            <td>
+              <input
+                id="nameInput"
+                type="text"
+                placeholder="Vui lòng nhập tên"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              <input
+                id="email"
+                type="email"
+                placeholder="Vui lòng nhập Email"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Số điện thoại</td>
+            <td>
+              <input id="phone" type="number" placeholder="Vui lòng nhập SĐT" />
+            </td>
+          </tr>
+          <tr>
+            <td>Quê quán</td>
+            <td>
+              <input
+                id="from"
+                type="text"
+                placeholder="Vui lòng nhập địa chỉ"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Giới tính</td>
+            <td id="gender" onchange="btn()">
+              <span><input id="nam" type="radio" value="Nam"/> Nam</span>
+              <span><input id="nu" type="radio" value="Nữ" /> Nữ</span>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button id="btn-form">Lưu lại</button></td>
+          </tr>
+        </table>
+      </form>
+      <table id="list-students" border="1px">
+        <thead>
+          <tr>
+            <td>#</td>
+            <td>Họ tên</td>
+            <td>Email</td>
+            <td>SĐT</td>
+            <td>Địa chỉ</td>
+            <td>Giới tính</td>
+            <td>hành động</td>
+            <td><button>sắp xếp (alpha b)</button></td>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <!-- <tr>
+            <td id="id">1</td>
+            <td id="name">huy</td>
+            <td id="email">@gmail.com</td>
+            <td id="sdt">12345</td>
+            <td id="from">Địa chỉ</td>
+            <td id="gender">Giới tính</td>
+            <td id="se">
+              <button class="btn-std edit"">edit</button>
+              <button class="btn-std delete">delete</button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+    <script src="./apps.js"></script>
+  </bdy>
+</html>
